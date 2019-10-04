@@ -1,0 +1,237 @@
+*{
+	maring:0;
+	padding:0;
+}
+
+/*--------navigation-bar-----*/
+
+.nav-bar{
+background-color:yellow;
+	position:sticky;
+	z-index:10;
+	top:0;
+}
+
+.nav-bar li a{
+	float:right;
+	text-align=left;
+	
+}
+#nav-bar li a:hover{
+	color:#007bff;
+	
+}
+.nav-link{
+	color:#555!important;
+	font-weight:600;
+	font-size:16px
+}
+/*--------slider-----*/
+#slider{
+	width=100%
+	
+}
+.carousel-caption{
+	top:10%;
+	padding-left:30%;
+	bottom:inital!important;
+	
+}
+.carousel-caption h1{
+	text:center;
+	color: #007bff;
+	font-size: 55px;
+}
+.carousel-caption h2{
+	text:center;
+	padding-top:00px;
+	padding-right:40px;
+	color: #007bff;
+	font-size: 25px;
+}
+/*-----ABOUT US------*/
+#about{
+	padding-top:50px;
+	padding-bottom:50px;
+	color:#555;
+	
+	
+}
+.about.btn{
+	margin-top:20px;
+	margin-bottom:30px;
+
+}
+.about-content{
+	padding-top:20px;
+	
+}
+.skills-bar{
+	margin-bottom:6px;
+	font-weight:600;
+	
+	
+}
+.progress-bar{
+	border-radius:16px;
+	
+}
+.progress{
+	
+	border-radius:16px!important;
+	margin-bottom:20px;
+}
+
+/*-----services------*/
+#services{
+	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(back1.jpg);
+	background-size:cover;
+	background-position:center;
+	color:#efefef!important;
+	background-attachment:50px;
+	padding-top:50px;
+	padding-bottom:50px;
+	
+	
+}
+#services h1{
+	text-align:center;
+	color:#efefef! important;
+	padding-bottom:10px;
+}
+#services h1::after{
+	content:'';
+	background:#efefef;
+	display: block;
+	height:3px;
+	width:170px;
+	margin:20px auto 5px;
+}
+
+.services{
+	margin-top:40px;
+}
+.icon{
+	font-size:30px;
+	margin:20px auto;
+	padding:20px;
+	height:70px;
+	width:70px;
+	border:1px solid #fff;
+	border-radius:50%;
+	
+	
+}
+#services p{
+	font-size:14px;
+	margin-top:20px;
+	color:#ccc;
+	
+	
+}
+.services .col-md-3:hover{
+	background:#007bff;
+	cursor:pointer;
+	transition:0.06s ease;
+	
+	
+}
+/*-----team memeber----*/
+
+#team{
+	padding-top:50px;
+	padding-bottom:50px;
+	color:#555;
+}
+
+h1{
+	text-align:center;
+	color:#555;
+	padding-bottom:10px;
+}
+h1::after{
+	content:'';
+	background:#007bff;
+	display: block;
+	height:3px;
+	width:140px;
+	margin:20px auto 5px;
+	
+}
+profile-pic{
+	margin-top:25px;
+	
+}
+profile-pic.img-box{
+	opacity:1;
+	display:block;
+	positive:relative;
+	
+}
+.profile-pic .img-box img:hover{
+	filter:grayscale(1);
+	cursor:pointer:
+	
+}
+.profile-pic h2{
+	font-size:22px;
+	font-weight:bold;
+	margin-top:15px;
+	color:#007bff;
+}
+.profile-pic h3{
+	font-size:15px;
+	font-weight:bold;
+	margin-top:15px;
+	
+}
+/*---------get in touch-----*/
+#contact
+{
+	background:#efefef;
+	padding-top:40px;
+	padding-bottom:40px;
+	color:#777;
+}
+.contact-form{
+	padding:15px;
+	
+}
+  .form-contact{
+	  border-radius:0!important;
+	  border:none !important;
+	  
+  }
+::placeholder{
+	color:#999 !important;
+	
+}
+.follow{
+	background:#fff;
+	padding:10px;
+	margin:15px;
+	
+}
+.contact-info{
+	margin:10px;
+	color:#007bff;
+	font-weight:bold;
+	
+	
+}
+.fa-heart-o{
+	margin:3px;
+	color:red;
+	
+}
+#footer{
+	background-color:#007bff;
+}
+
+
+
+
+
+
+
+
